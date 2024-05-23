@@ -25,10 +25,6 @@ You can play the game live [here](https://your-vercel-app-url.vercel.app).
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - Thanks to the React community for their valuable resources and tutorials.
