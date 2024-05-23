@@ -349,3 +349,151 @@ ol {
     transform: scale(1);
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    min-height: 100vh;
+  }
+  
+  header img {
+    width: 6rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 2rem auto;
+  }
+
+  #game-container {
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+  #players {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  #players li {
+    width: 100%; /* Make each player take full width */
+    justify-content: space-between; /* Center align the contents */
+  }
+
+  .player-name,
+  .player input {
+    width: 85%; /* Adjust width to auto for better fit */
+    flex: 1;
+    text-align: left;
+  }
+
+  .player-symbol {
+    margin-left: 0;
+    font-size: 1rem;
+    color: #e1dec7;
+    flex-shrink: 0;
+    padding-left: 9px;
+  }
+
+  #players button {
+    width: 2.5rem; /* Adjust button size */
+    font-size: 0.8rem; /* Adjust button font size */
+  }
+
+  #game-board button {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+  }
+
+  #game-over h2 {
+    font-size: 3rem;
+  }
+
+  #game-over p {
+    font-size: 1.5rem;
+  }
+
+  #game-over button {
+    font-size: 1.2rem;
+  }
+
+  #pre-game button {
+    font-size: 3rem;
+  }
+
+  #log {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  header img {
+    width: 4rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+
+  #players {
+    flex-direction: column; /* Stack players vertically on very small screens */
+    align-items: flex-start; /* Align items to start */
+    gap: 0.5rem; /* Adjust gap for very small screens */
+  }
+
+  #players li {
+    width: 100%; /* Ensure full width for each player */
+    justify-content: space-between; /* Align items to start */
+  }
+
+  .player-name,
+  .player input {
+    width: 85%; /* Ensure inputs and names take full width */
+    text-align: left;
+  }
+
+  .player-symbol {
+    margin-left: 0;
+    font-size: 1rem;
+    color: #e1dec7;
+    flex-shrink: 0;
+    padding-left: 9px;
+  }
+
+  #players button {
+    width: 2rem; /* Further adjust button size */
+    font-size: 0.7rem; /* Further adjust button font size */
+  }
+
+  #game-container {
+    padding: 1rem;
+  }
+
+  #game-board button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+
+  #game-over h2 {
+    font-size: 2.5rem;
+  }
+
+  #game-over p {
+    font-size: 1.2rem;
+  }
+
+  #game-over button {
+    font-size: 1rem;
+  }
+
+  #pre-game button {
+    font-size: 2.5rem;
+  }
+
+  #log {
+    margin: 1rem auto;
+  }
+}
