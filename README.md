@@ -19,15 +19,11 @@ This is a simple Tic-Tac-Toe game built using React.js. The game is designed to 
 
 ## Play the Game
 
-You can play the game live [here](https://your-vercel-app-url.vercel.app).
+You can play the game live [here](https://tic-tac-toe-game-seven-bice.vercel.app/).
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
